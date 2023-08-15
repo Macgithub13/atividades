@@ -1,0 +1,59 @@
+.pagina-media{
+
+    height:100vh;
+    width:100vw;
+    overflow:hidden;
+
+    background-image: linear-gradient( 111.4deg,  rgba(2,0,36,1) 6.5%, rgba(27,24,113,1) 93.2% );
+
+    .container{
+        
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+
+        width:100vw;
+        height:100vh;
+
+        .conteudo{
+
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+
+            height:500px;
+            width:40vw;
+
+            padding:30px 10px;
+            input{
+
+                width:500px;
+                height:50px;
+
+                margin-bottom:30px;
+
+                color:#000;
+            }
+
+            button{
+
+                background-image:linear-gradient(to right, #1e3c72 0%, #2a5298 51%, #1e3c72 100%);
+                padding: 20px 70px;
+                margin-bottom:20px;
+                border-radius:30px;
+                text-align: center;
+                transition: .5s;
+                background-size: 200% auto;
+                font-weight:700;
+            }
+
+            .button-voltar{
+
+                width:150px;
+                height:50px;
+
+                align-self:flex-end;
+            }
+        }
+    }
+}

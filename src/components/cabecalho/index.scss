@@ -1,0 +1,38 @@
+.cabecalho{
+
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+    width:100vw;
+
+    padding:30px 50px;
+    margin-bottom:50px;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+
+    box-shadow:0px 2px 4px #000000;
+
+    button{
+
+        border:none;
+        background:linear-gradient(to right, #4b6cb7 0%, #182848  51%, #4b6cb7  100%);
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: .5s;
+        background-size: 200% auto;
+        border-radius: 10px;
+    }
+
+    button:hover{
+
+        background-position: right center;
+    }
+    
+    >img{
+
+        width:50px;
+    }
+}

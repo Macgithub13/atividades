@@ -1,0 +1,49 @@
+.pagina-home{
+    height:100vh;
+    width:100vw;
+    overflow:hidden;
+
+    background-image: linear-gradient( 111.4deg,  rgba(2,0,36,1) 6.5%, rgba(27,24,113,1) 93.2% );
+
+    .conteudo{
+        
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+        height:30%;
+        width:auto;
+        padding:20px;
+
+        h1{
+
+            margin-bottom:30px;
+            
+            color:#fff;
+        }
+
+        .menu{
+            
+            display:flex;
+            flex-direction: row;
+
+            gap:30px;
+
+            .link{
+
+                background-image:linear-gradient(to right, #1e3c72 0%, #2a5298 51%, #1e3c72 100%);
+                padding: 15px 45px;
+                border-radius:30px;
+                text-align: center;
+                transition: .5s;
+                background-size: 200% auto;
+                text-decoration: none;
+            }
+            
+            .link:hover{
+
+                background-position: right center;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.carro-page{
+
+    width:100vw;
+    height:100vh;
+
+    background-color: #F5F6FA;
+    
+
+    overflow-x:hidden;
+
+    .container-page{
+
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width:100vw;
+        height:100vh;
+
+        .container-carro{
+
+            display:flex;
+            flex-direction: row;
+
+            .image-carro{
+
+                display:flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                padding:30px;
+                height:300px;
+                width:150px;
+
+                background-color: #CACACA;
+
+                .img{
+
+                    width:250px;
+                    height:auto;
+                }
+            }
+
+            .calc{
+
+                display: flex;
+                flex-direction: column;
+
+                padding:40px 20px;
+
+                background-color: #fff;
+
+                >input{
+
+                    width:400px;
+                    height:30px;
+
+                    margin-bottom:20px;
+                }
+
+                .subc-carro{
+
+                    display:flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    margin-bottom:30px;
+
+                    div{
+
+                        display:flex;
+                        flex-direction: column;
+
+                        input{
+                            width:100px;
+                            height:30px;
+                        }
+                    }
+                }
+
+                .resultados{
+
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
